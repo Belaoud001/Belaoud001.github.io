@@ -16,6 +16,10 @@ li {
 	list-style-type: circle;
 }
 
+a:hover{
+	color : cyan;
+}
+
 .Core1 {
 	font-family: DejaVu Sans Mono, monospace;
 	text-decoration: underline;	
