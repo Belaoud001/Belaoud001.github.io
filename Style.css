@@ -1,6 +1,6 @@
 .verticalLine {
     height: 300px;
-    border-left: 5px solid #7E1DF5;
+    border-left: 5px solid grey;
     position: absolute;
     margin: 0 203px;
 }
@@ -8,7 +8,6 @@
 .Core {
 	font-family: DejaVu Sans Mono, monospace;	
 	font-size: 19px;
-	margin : 0 125px;
 }
 
 li {
@@ -17,19 +16,19 @@ li {
 }
 
 a:hover {
-  	color: blue;
+  color: blue;
 }
 
 a:active {
-  	color: grey;
+  color: grey;
 }
-
 
 .Core1 {
 	font-family: DejaVu Sans Mono, monospace;
 	text-decoration: underline;	
 	font-size: 22px;
 	margin : 0 10px;
+	color: #00915E;
 }
 
 .Titre {
@@ -45,7 +44,7 @@ a:active {
 	font-size: 27px;
 	font-weight: 100;
 
-	color: #18D0F5;
+	color: #3131DB;
 }
 
 .Titre1 {
@@ -54,5 +53,5 @@ a:active {
 	font-size: 25px;
 	margin:  150px ;
 	text-decoration: underline;
-	color: #7E1DF5;
+	color: #002DE0;
 }
