@@ -16,7 +16,7 @@ li {
 	list-style-type: circle;
 }
 
-a:hover{
+a:active{
 	color : cyan;
 }
 
