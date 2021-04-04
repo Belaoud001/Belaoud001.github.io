@@ -1,35 +1,49 @@
 .verticalLine {
     height: 300px;
-    border-left: 5px solid #D2D4D2;
+    border-left: 5px solid #7E1DF5;
     position: absolute;
-    right: 69%;
+    margin: 0 203px;
 }
 
 .Core {
-	font-family: Didot, serif;
+	font-family: DejaVu Sans Mono, monospace;	
 	font-size: 19px;
+	margin : 0 125px;
 }
+
+li {
+	margin : 0 125px;
+	list-style-type: circle;
+}
+
+.Core1 {
+	font-family: DejaVu Sans Mono, monospace;
+	text-decoration: underline;	
+	font-size: 22px;
+	margin : 0 10px;
+}
+
 .Titre {
 	font-family:Courier New, monospace;
 	font-size: 30px;
 	font-weight: 550;
 	text-align: Center;
-
 	color: grey;
 }
 
 .Name {
-	font-family: system-ui;
+	font-family:Courier New, monospace;
 	font-size: 27px;
 	font-weight: 100;
 
-	color: #5C8DF5;
+	color: #18D0F5;
 }
 
 .Titre1 {
-	font-family: DejaVu Sans Mono, monospace;
-	font-size: 24px;
+	
+	font-family: cursive, serif;
+	font-size: 25px;
 	margin:  150px ;
 	text-decoration: underline;
-	color: #A70EF5;
+	color: #7E1DF5;
 }
