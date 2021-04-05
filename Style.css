@@ -11,7 +11,7 @@
 }
 
 li {
-	margin : 0 125px;
+	margin : 0 180px;
 	list-style-type: circle;
 }
 
@@ -27,7 +27,7 @@ a:active {
 	font-family: DejaVu Sans Mono, monospace;
 	text-decoration: underline;	
 	font-size: 22px;
-	margin : 0 10px;
+	margin : 0 15px;
 	color: #1F9EDB;
 }
 
