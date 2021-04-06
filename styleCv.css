@@ -64,7 +64,7 @@ a:active {
  }
 
  hr.new {
- 	border-top: 1px solid red;
+ 	border-top: 4px solid #405FE6;
  }
 
 .Marge {
@@ -96,6 +96,13 @@ a:active {
  	size: 50px;
  }
 
+ ol {
+ 	font-family : "FreeMono", monospace;
+ 	color : grey;
+ 	margin : 2px 0px 1em 25px;
+ 	font-size : 20px;
+ }
+
  button {
   	background-color: #89C7C7;
   	color: white;
@@ -110,6 +117,7 @@ a:active {
 textarea {
 	border-radius: 10px;
 }
+
  p {
  	font-family : "FreeMono", monospace;
  	size : 50px;
