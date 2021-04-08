@@ -54,3 +54,10 @@ a:active {
 	text-decoration: underline;
 	color: #2253E3;
 }
+
+ hr {
+ 	border: 2px solid grey;
+ 	border-radius: 7px;
+ 	margin:15px 20px 1em 20px;
+ 	color : #39603D;
+ }
