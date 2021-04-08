@@ -8,10 +8,16 @@
 .Core {
 	font-family: DejaVu Sans Mono, monospace;	
 	font-size: 19px;
+	margin : 0 10px;
 }
 
 li {
-	margin : 0 180px;
+	margin : 0 120px;
+	list-style-type: space-counter;
+}
+
+li.new {
+	margin : 5px 0px 0em 290px;
 	list-style-type: circle;
 }
 
@@ -21,6 +27,10 @@ a:hover {
 
 a:active {
   color: grey;
+}
+
+u {
+	color : #3E9A4A;
 }
 
 .Core1 {
@@ -41,9 +51,8 @@ a:active {
 
 .Name {
 	font-family:Courier New, monospace;
-	font-size: 27px;
-	font-weight: 100;
-	color: #009A00;
+	font-size: 30px;
+	color: #932AB0;
 }
 
 .Titre1 {
