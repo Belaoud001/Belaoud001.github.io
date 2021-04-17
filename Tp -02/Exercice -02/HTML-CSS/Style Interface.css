@@ -114,7 +114,7 @@
 }
 
 /*Ipad*/
-@media screen and (min-width: 641px) and (max-width: 1080px) {
+@media screen and (min-width: 769px) and (max-width: 1080px) {
   .wrapper {
     grid-template-areas:
       "header  header"
@@ -135,7 +135,7 @@
    }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   #nature1 {
     display: none;
    }
