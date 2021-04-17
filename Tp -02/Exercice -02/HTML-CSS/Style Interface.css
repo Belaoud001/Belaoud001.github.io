@@ -1,0 +1,151 @@
+.style-box {
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Description {
+  font-family: 'Inconsolata', monospace;
+  font-size: 23px;
+  text-align: right;
+  margin-right: 70px;
+}
+
+.font {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 55px;
+  font-weight: 560;
+  color: grey;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.header {
+  grid-area: header;
+  background-color: #193748;
+}
+
+.sec {
+  grid-area: zero;
+  background-color: #126e82;
+}
+.sec1 {
+  grid-area: un;
+  background-color: #1b7376;
+}
+.sec2 {
+  grid-area: deux;
+  background-color: #1F8487;
+}
+
+.sec3 {
+  grid-area: trois;
+  background-color: #cf9e3b;
+}
+
+.sec4 {
+  grid-area: quatre;
+  background-color: #B88C35;
+}
+
+.sec5 {
+  grid-area: cinq;
+  background-color: #D4562C;
+}
+
+.sec6 {
+  grid-area: six;
+  background-color: #C5532C;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #c7392f;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 8px;
+  grid-auto-rows: 70px;
+  grid-template-areas:
+    "header"
+    "zero"
+    "un"
+    "deux"
+    "trois"
+    "quatre"
+    "cinq"
+    "six"
+    "footer";
+}
+
+.interface {
+  background-color: ;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 40px;
+}
+
+/*laptop*/
+@media screen and (min-width: 1081px) {
+  .wrapper {
+    grid-template-areas:
+      "header  header header header"
+      "zero zero zero zero"
+      "un deux trois quatre"
+      "un deux trois quatre"
+      "cinq cinq six six"
+      "cinq cinq six six"
+      "footer footer footer footer";
+   }
+
+   #nature {
+    display: none;
+   }
+
+   #nature1 {
+    display: none;
+   }
+}
+
+/*Ipad*/
+@media screen and (min-width: 641px) and (max-width: 1080px) {
+  .wrapper {
+    grid-template-areas:
+      "header  header"
+      "zero zero"
+      "un deux" 
+      "trois quatre"
+      "cinq cinq"
+      "six six"
+      "footer footer";
+  }
+
+  #nature {
+    display: none;
+   }
+
+   #nature2 {
+    display: none;
+   }
+}
+
+@media screen and (max-width: 640px) {
+  #nature1 {
+    display: none;
+   }
+
+   #nature2 {
+    display: none;
+   }
+
+   .font, .Description {
+    margin : 0px;
+    text-align: center;
+   }
+}
