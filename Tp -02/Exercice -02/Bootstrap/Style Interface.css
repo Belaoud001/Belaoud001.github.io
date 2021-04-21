@@ -61,6 +61,14 @@
   background-color: #c7392f;
 }
 
+h5{
+	text-align: right;
+  	font-family: 'Montserrat', sans-serif;
+  	font-weight: 600;
+  	color: #5A6160;
+  	margin-right: 40px;
+}
+
 @media screen and (max-width: 768px) {
    .font, .Description {
     margin : 0px;
