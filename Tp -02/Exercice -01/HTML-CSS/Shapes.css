@@ -1,29 +1,8 @@
-/* Figure 1  : CSS */
-.Box {
-  border: 2px solid grey;
-  width: 100px;
-  height: 100px;
-}
 
 hr {
     margin-left: 4%;
     margin-right: 5%;
     border: 2px solid grey;
-}
-
-hr.style {
-    margin-left: 10%;
-    margin-right: 11%;
-    border: 2px solid grey;
-    border-radius: 5px;
-}
-
-span {
-  float: left;
-  width: 0.6em;
-  font-size: 200%;
-  line-height: 50%;
-  color: #5A6160;
 }
 
 .title {
@@ -34,12 +13,30 @@ span {
   color: grey;
 }
 
+.Fig {
+	border: 3px solid grey;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	height: 218px;
+	width: 219px;
+	padding: 5px;
+}
+
+span {
+  	width: 0.6em;
+  	font-size: 200%;
+  	line-height: 50%;
+  	color: #5A6160;
+}
+
 h4 {
-  text-align: left;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  text-decoration: underline;
-  color: #5A6160;
+  	font-family: 'Montserrat', sans-serif;
+  	font-weight: 700;
+  	text-decoration: underline;
+  	color: #5A6160;
 }
 
 h5{
@@ -49,161 +46,32 @@ h5{
   	color: #5A6160;
   	margin-right: 40px;
 }
+.Box {
+	height: 68px;
+	width: 68px;
+	border: 2px solid grey;
+}
 
-#Absolute {
-  display : flex;
-  flex-direction: row;
-  margin-left: 1%;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.row {
+	margin: 0px;
+ }
+
+.clr1 {
+  background: #008891;
 }
 
 .clr2 {
   background: #839b97;
 }
 
-.clr1 {
-  background: #008891;
-}
-
 .clr3 {
   background: #e7e7de;
 }
 
-#container {
-  margin-bottom: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-#container .Box{
-  margin-bottom: 5px;
-}
-
-/*Figure 1: Absolute positionment;*/
-#container1 .clr2 {
-  margin-left: 104px;
-}
-
-#container1 .clr3 {
-  margin-left: 208px;
-}
-
-#container1{
-  position: relative;
-}
-
-/*Figure 2: Absolute positionment;*/
-#container2{
-  /*margin-bottom: 130px;*/
-  height: 300px;
-  position: relative;
-}
-
-#container2 .clr1{
-  width: 216px;
-  margin-bottom: 6px;
-}
-#container2 .clr2{
-  width: 102px;
-  position: absolute;
-}
-#container2 .clr3{
-  width: 102px;
-  position: absolute;
-  left : 114px;
-}
-
-/*Figure 3: Absolute positionment;*/
-#container3 .clr1{
-  width: 102px;
-  margin-bottom: 5px;
-  position: absolute;
-}
-
-#container3 .clr2{
-  width: 102px;
-  left: 110px;
-  position:absolute;
-  
-}
-
-#container3 .clr3{
-  width: 102px;
-  margin-top: 110px;
-  position: absolute;
-}
-
-#container3{
-  height: 300px;
-  position: relative;
-  margin-right: 11%;
-}
-
-/*---------------------------*/
-
-#Relative {
-  display : flex;
-  flex-direction: row;
-  margin-right: 10%;
-  margin-left: 1%;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-#container_R .Box{
-  margin-bottom: 5px;
-}
-
-/*Figure 1: Absolute positionment;*/
-#container1_R .clr2 {
-  margin-left: 104px;
-}
-
-#container1_R .clr3 {
-  margin-left: 208px;
-}
-
-#container_R {
-  margin-bottom: 10px;
-}
-
-/*Figure 2: Absolute positionment;*/
-#container2_R .clr1{
-  width: 214px;
-  margin-bottom: 5px;
-}
-#container2_R .clr2{
-  width: 102px;
-  position: relative;
-}
-#container2_R .clr3{
-  width: 102px;
-  position: relative;
-  left : 112px;
-  top: -104px;
-}
-
-/*Figure 3: Absolute positionment;*/
-
-#container3_R {
-  position: relative;
-}
-
-#container3_R .clr1{
-  position: relative;
-}
-
-#container3_R .clr2{
-  position: relative;
-  top: -104px;
-  left: 108px;
-}
-
-#container3_R .clr3{
-  position: relative;
-  top: -100px;
+@media screen and (max-width: 768px) {
+   .title {
+   	float: center;
+    margin : 0px;
+    text-align: center;
+   }
 }
