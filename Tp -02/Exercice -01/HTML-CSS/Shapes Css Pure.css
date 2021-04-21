@@ -42,6 +42,14 @@ h4 {
   color: #5A6160;
 }
 
+h5{
+  text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #5A6160;
+    margin-right: 40px;
+}
+
 #Absolute {
   display : flex;
   flex-direction: row;
