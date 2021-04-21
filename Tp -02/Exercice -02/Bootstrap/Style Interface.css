@@ -1,0 +1,69 @@
+.style-box {
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  padding: 1rem;
+  margin-bottom: 8px;
+}
+
+
+.Description {
+  font-family: 'Inconsolata', monospace;
+  font-size: 23px;
+  text-align: right;
+  margin-right: 70px;
+}
+
+.font {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 55px;
+  font-weight: 560;
+  color: grey;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.container-fluid {
+  margin: 0 40px;
+}
+
+.header {
+  background-color: #193748;
+}
+.sec {
+  background-color: #126e82;
+}
+.sec1 {
+  background-color: #1b7376;
+}
+.sec2 {
+  background-color: #1F8487;
+}
+.sec3 {
+  background-color: #cf9e3b;
+}
+.sec4 {
+  background-color: #B88C35;
+}
+.sec5 {
+  background-color: #D4562C;
+}
+.sec6 {
+  background-color: #C5532C;
+}
+.footer {
+  background-color: #c7392f;
+}
+
+@media screen and (max-width: 768px) {
+   .font, .Description {
+    margin : 0px;
+    text-align: center;
+   }
+}
