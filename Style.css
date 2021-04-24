@@ -1,80 +1,200 @@
-.verticalLine {
-    height: 600px;
-    border-left: 5px solid #1F9EDB;
-    position: absolute;
-    margin: 0 203px;
+/* Background-Style */
+body {
+  background: #818C61;
 }
 
-.Core {
-	font-family: DejaVu Sans Mono, monospace;	
-	font-size: 19px;
-	margin : 0 10px;
+#particles-js {
+	background: #818C61;
 }
 
-li {
-	margin : 0 120px;
-	list-style-type: space-counter;
+.effect-bck {
+	position: absolute;
+	top: 38%;
+	right:0px;	
+	left:0px;
+	bottom: 0px;
+	z-index: 1;
 }
 
-li.new {
-	margin : 5px 0px 0em 290px;
-	list-style-type: circle;
+/* Interface d'authentification */
+
+.interface {
+	position: relative;
+	width: 912px;
+	height: 602px;
+	border-radius: 8px;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 15px 15px 30px rgba(10, 10, 10, 0.7);
+	z-index: 2;
+}
+
+/* left-side -Picture*/
+
+
+.upper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1;
+
+}
+
+.image {
+	width: 50%;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	box-shadow: 15px 0px 30px rgba(0, 0, 0, 0.7);
+
+}
+
+.authentifier {
+	width: 50%;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-between;
+	background: linear-gradient(to left top, rgba(255, 255, 255, 0.3),
+                                               	 rgba(255, 255, 255, 0.1));
+	padding: 30px 50px 15px 50px;
+}
+
+span {
+	color: #8F6C14;
+	font-size: 40px;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	font-family: 'Cinzel Decorative', cursive;
+	color: white;
+	font-size: 27px;
+}
+
+.login {
+	flex: 3;
+}
+
+.login-font {
+	font-family: 'Cormorant', serif;
+	margin-left: 15px;
+	font-size: 25px;
+	margin-bottom: 2px;
+	color: #3f5057;
+}
+
+.flex-form {
+	display: flex;
+	flex-direction: column;	
+}
+
+input[type=text]:focus {
+	border: 2px solid #555;
+	-webkit-box-shadow: 6px 2px 3px rgba(0, 0, 0, 0.7) inset;
+	-moz-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3) inset;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+	outline: none;
+}
+
+button, input[type=text] {
+	
+  padding: 14px 20px;
+  border: 1px solid grey;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+button {
+	margin-top: 20px;
+	background: #26806E;
+	color: white;
+}
+
+button:hover{
+	background-color: #227363;
+}
+
+ #remember-user {
+	font-family: 'Cormorant', serif;
+	font-size: 17px;
+
+}
+
+#remember {
+	margin-top: 10px;
+}
+
+.connect-font {
+	font-family: 'Cormorant', serif;
+	font-size: 21px;
+}
+
+hr {
+	margin-bottom: 20px;
+}
+
+.text-center {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 17px;
+}
+
+a:link {
+	color: #3f5057;
+	text-decoration: none;
 }
 
 a:hover {
-  color: blue;
+	text-decoration: underline;
+}
+
+a:visited {
+  	text-decoration: none;
+  	color: #3f5057;
 }
 
 a:active {
-  color: grey;
-}
-
-u {
-	color : #3E9A4A;
-}
-
-.Core1 {
-	font-family: DejaVu Sans Mono, monospace;
-	text-decoration: underline;	
-	font-size: 22px;
-	margin : 0 15px;
-	color: #1F9EDB;
-}
-
-.Titre {
-	font-family:Courier New, monospace;
-	font-size: 30px;
-	font-weight: 550;
-	text-align: Center;
 	color: grey;
+  	text-decoration: underline;
 }
 
-.Name {
-	font-family:Courier New, monospace;
-	font-size: 30px;
-	color: #932AB0;
+input::placeholder {
+	font-style: italic;
+	margin: 5px;
 }
 
-.Titre1 {
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #8F6C14;
+	font-family: 'Cormorant', serif;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 922px){
 	
-	font-family: cursive, serif;
-	font-size: 25px;
-	margin: 0 150px ;
-	text-decoration: underline;
-	color: #2253E3;
+	.image {
+		width : 0px;
+	}
+
+	.interface {
+		width: 466px;
+	}
+
+	.authentifier {
+		width: 100%;
+		border-radius: 10px;
+	}
 }
 
-.Source {
-	font-family: DejaVu Sans Mono, monospace;
-	font-size: 18px;
-	text-align : right;
-	margin: 0 50px;
-	
-}
-
- hr {
- 	border: 2px solid grey;
- 	border-radius: 7px;
- 	margin:15px 20px 1em 20px;
- 	color : #39603D;
- }
+div.image {
+   content:url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg/446px-Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg);
+}​
