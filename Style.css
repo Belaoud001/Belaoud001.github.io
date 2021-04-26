@@ -1,0 +1,100 @@
+
+
+.bg-image {
+    background: url(https://paradigmpeople.com/wp-content/uploads/2018/12/20170301155447.jpg);
+    background-position: center;
+}
+
+.main {
+	background: #fafbfc;
+}
+
+.container {
+	margin: 40px auto;
+	min-height: 90vh;
+}
+
+.Dashboard {
+	background-color: white;
+}
+.tool-1, .tool-2, .tool-3 {
+	background: white;
+}
+
+.hoverDiv {
+	background: #fff;
+}
+
+.Src:hover {
+	background: #F7F7F7;
+	color: white;
+}
+
+.Css:hover {
+	background: #264de4;
+	color: white;
+}
+
+.Html:hover {
+	background: #e44d26;
+	color: white;
+}
+
+.Html-Css:hover {
+	background-color: #858585;
+	color: white;
+}
+
+.Bootstrap:hover {
+	background: #563d7c;
+	color: white;
+}
+
+.titre {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+}
+
+.sous-titre {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+}
+
+.tp-font {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 20px;
+}
+
+.ex-font {
+	font-family: 'Play', sans-serif;
+	font-size: 18px;
+}
+
+.dcp-font {
+	font-family: 'Play', sans-serif;
+	font-size: 15px;
+}
+
+.tool-font {
+	font-family: 'Chakra Petch', sans-serif;
+	font-size: 20px;
+}
+
+p {
+	text-align: justify;
+}
+
+.dscrp {
+	font-family: 'Dosis', sans-serif;
+}
+
+.dscrp-title {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.header {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 20px;
+}
