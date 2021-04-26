@@ -1,17 +1,10 @@
-
-
-.bg-image {
-    background: url(https://paradigmpeople.com/wp-content/uploads/2018/12/20170301155447.jpg);
-    background-position: center;
-}
-
 .main {
 	background: #fafbfc;
 }
 
 .container {
 	margin: 40px auto;
-	min-height: 90vh;
+	min-height: 880px;
 }
 
 .Dashboard {
